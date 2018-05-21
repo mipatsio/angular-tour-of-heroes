@@ -1,0 +1,14 @@
+
+<p>{{ supervillain.name | uppercase }} Details</p>
+<div>
+  <label>Name: 
+    <input [(ngModel)] = 'supervillain.name' placeholder='name'>
+  </label>
+</div>
+<div>
+  <label>Id:
+    <input [(ngModel)] = 'supervillain.id' placeholder='id'>
+  </label>
+</div>
+<div>Name: <span>{{ supervillain.name }}</span></div>
+<div>Id: <span>{{ supervillain.id }}</span></div>
